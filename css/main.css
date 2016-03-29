@@ -1,0 +1,30 @@
+body {
+    margin-left:0;
+}
+html {
+    overflow: hidden;
+}
+#cover {
+    width: 1000px;
+}
+#holder {
+    -webkit-column-count: auto;
+    -webkit-column-gap: 42px;
+    -webkit-column-width: 289px;
+    position: relative;
+    top: 0;
+    float: left;
+    height: 600px;
+    color: green;
+    text-align: justify;
+    font-size: 14px;
+    margin-left: 42px;
+}
+.row {
+    position: fixed;
+    top: 630px;
+    left: 120px;
+}
+.row input {
+    margin-right: 20px;
+}
